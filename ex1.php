@@ -6,5 +6,5 @@ function binarySum(string $num1, string $num2): string
     return decbin($decNum1 + $decNum2);
 }
 
-echo binarySum(1101, 101);
+echo binarySum(11010, 101);
 
